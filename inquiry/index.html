@@ -362,24 +362,22 @@ body {
 			
 			
 					</style>
-		<style id="custom-background-css">
-body.custom-background { background-image: url("https://rkferrolino.github.io/awakened/wp-content/uploads/2026/08/bg.png"); background-position: center bottom; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
-</style>
-<style id="wp-custom-css">
-.site-header .navbar{
-	background:none;
+		<style id="wp-custom-css">
+.top-img {
+width: 100vw;
+  min-height: 117vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: url('https://rkferrolino.github.io/awakened/wp-content/uploads/2026/08/bg.png') top / cover no-repeat;
+	margin-top: -35px;
 }
 .navbar-toggle{
 	display:none !important;
 }
-.home .site-footer{
-	position: fixed;
-  width: 100%;
-  bottom: -1px;
-	background: no-repeat;
-  border-top: unset !important;
-	color: #fff;
-}
+
 .top h1{
 	font-size: 6rem !important;
   text-align: center;
@@ -402,11 +400,63 @@ body.custom-background { background-image: url("https://rkferrolino.github.io/aw
   margin: 0 auto;
 }
 h1.entry-title{
-	color:#fbe8be !important;
+	color:#000 !important;
+	text-align:center !important;
 }
 .forminator-field label{
-	color:#ffc667 !important;
+	color:#000 !important;
 }
+/* Mission & Vision Cards */
+    .cards-grid {
+      display: grid;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid #382415;
+      border-top: 3px solid var(--gold-primary);
+      padding: 35px;
+      border-radius: 8px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--gold-primary);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .card-title {
+      font-family: var(--font-sans);
+      font-size: 1.3rem;
+      letter-spacing: 2px;
+      color: var(--gold-light);
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .card-number {
+      font-family: var(--font-sans);
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: var(--gold-border);
+    }
+
+    .card-body {
+      font-size: 1.05rem;
+      color: var(--text-main);
+      line-height: 1.8;
+    }
 
 </style>
 
@@ -420,7 +470,7 @@ h1.entry-title{
 
 </head>
 
-<body class="wp-singular page-template-default page page-id-49 custom-background wp-custom-logo wp-embed-responsive wp-theme-inspiro inspiro--with-page-nav post-display-content-excerpt header-search-hidden colors-light">
+<body class="wp-singular page-template-default page page-id-49 wp-custom-logo wp-embed-responsive wp-theme-inspiro inspiro--with-page-nav post-display-content-excerpt colors-light">
 
 <aside id="side-nav" class="side-nav" tabindex="-1">
 	<div class="side-nav__scrollable-container">
@@ -454,7 +504,7 @@ h1.entry-title{
 	<div class="header-inner inner-wrap  ">
 
 					<div class="header-logo-wrapper">
-				<a href="https://rkferrolino.github.io/awakened/" class="custom-logo-link" rel="home"><img width="825" height="885" src="https://rkferrolino.github.io/awakened/wp-content/uploads/2026/08/logo.png" class="custom-logo" alt="Awakened in Christ" decoding="async" fetchpriority="high" sizes="100vw"></a>			</div>
+				<a href="https://rkferrolino.github.io/awakened/" class="custom-logo-link" rel="home"><img width="894" height="861" src="https://rkferrolino.github.io/awakened/wp-content/uploads/2026/08/logo.png" class="custom-logo" alt="Awakened in Christ" decoding="async" fetchpriority="high" sizes="100vw"></a>			</div>
 
 			<div class="header-navigation-wrapper">
 								<nav class="primary-menu-wrapper navbar-collapse collapse" aria-label="Top Horizontal Menu" role="navigation">
@@ -519,7 +569,7 @@ h1.entry-title{
 
 	
 	<div class="entry-content">
-		<div class="forminator-ui forminator-custom-form forminator-custom-form-76 forminator-design--default  forminator_ajax" data-forminator-render="0" data-form="forminator-module-76" data-uid="6a82e8b33cd9c"><br></div><form id="forminator-module-76" class="forminator-ui forminator-custom-form forminator-custom-form-76 forminator-design--default  forminator_ajax" method="post" data-forminator-render="0" data-form-id="76" data-color-option="theme" data-design="default" data-grid="open" style="display: none;" data-uid="6a82e8b33cd9c"><div role="alert" aria-live="polite" class="forminator-response-message forminator-error" aria-hidden="true"></div><div class="forminator-row"><div id="name-1" class="forminator-field-name forminator-col forminator-col-12 "><div class="forminator-field"><label for="forminator-field-name-1_6a82e8b33cd9c" id="forminator-field-name-1_6a82e8b33cd9c-label" class="forminator-label">First Name <span class="forminator-required">*</span></label><input type="text" name="name-1" value="" placeholder="" id="forminator-field-name-1_6a82e8b33cd9c" class="forminator-input forminator-name--field" aria-required="true" autocomplete="name"></div></div></div><div class="forminator-row"><div id="email-1" class="forminator-field-email forminator-col forminator-col-12 "><div class="forminator-field"><label for="forminator-field-email-1_6a82e8b33cd9c" id="forminator-field-email-1_6a82e8b33cd9c-label" class="forminator-label">Email Address <span class="forminator-required">*</span></label><input type="email" name="email-1" value="" placeholder="" id="forminator-field-email-1_6a82e8b33cd9c" class="forminator-input forminator-email--field" data-required="true" aria-required="true" autocomplete="email"></div></div></div><div class="forminator-row"><div id="phone-1" class="forminator-field-phone forminator-col forminator-col-12 "><div class="forminator-field"><label for="forminator-field-phone-1_6a82e8b33cd9c" id="forminator-field-phone-1_6a82e8b33cd9c-label" class="forminator-label">Phone Number</label><input type="text" name="phone-1" value="" placeholder="" id="forminator-field-phone-1_6a82e8b33cd9c" class="forminator-input forminator-field--phone" data-required="" aria-required="false" autocomplete="off"></div></div></div><div class="forminator-row"><div id="textarea-1" class="forminator-field-textarea forminator-col forminator-col-12 "><div class="forminator-field"><label for="forminator-field-textarea-1_6a82e8b33cd9c" id="forminator-field-textarea-1_6a82e8b33cd9c-label" class="forminator-label">Message</label><span id="forminator-field-textarea-1_6a82e8b33cd9c-description" class="forminator-description"><span data-limit="180" data-type="characters" data-editor="">0 / 180</span></span><textarea name="textarea-1" placeholder="" id="forminator-field-textarea-1_6a82e8b33cd9c" class="forminator-textarea" style="--forminator-textarea-min-height:140px;" maxlength="180"></textarea></div></div></div><input type="hidden" name="referer_url" value=""><div class="forminator-row forminator-row-last"><div class="forminator-col"><div class="forminator-field"><button class="forminator-button forminator-button-submit">Submit</button></div></div></div><input type="hidden" id="forminator_nonce" name="forminator_nonce" value="af376b07d5"><input type="hidden" name="_wp_http_referer" value="/awakened/inquiry/"><input type="hidden" name="form_id" value="76"><input type="hidden" name="page_id" value="49"><input type="hidden" name="form_type" value="default"><input type="hidden" name="current_url" value="https://rkferrolino.github.io/awakened/inquiry/"><input type="hidden" name="render_id" value="0"><input type="hidden" name="action" value="forminator_submit_form_custom-forms"></form>
+		<div class="forminator-ui forminator-custom-form forminator-custom-form-76 forminator-design--default  forminator_ajax" data-forminator-render="0" data-form="forminator-module-76" data-uid="6a83fbc0a57db"><br></div><form id="forminator-module-76" class="forminator-ui forminator-custom-form forminator-custom-form-76 forminator-design--default  forminator_ajax" method="post" data-forminator-render="0" data-form-id="76" data-color-option="theme" data-design="default" data-grid="open" style="display: none;" data-uid="6a83fbc0a57db"><div role="alert" aria-live="polite" class="forminator-response-message forminator-error" aria-hidden="true"></div><div class="forminator-row"><div id="name-1" class="forminator-field-name forminator-col forminator-col-12 "><div class="forminator-field"><label for="forminator-field-name-1_6a83fbc0a57db" id="forminator-field-name-1_6a83fbc0a57db-label" class="forminator-label">First Name <span class="forminator-required">*</span></label><input type="text" name="name-1" value="" placeholder="" id="forminator-field-name-1_6a83fbc0a57db" class="forminator-input forminator-name--field" aria-required="true" autocomplete="name"></div></div></div><div class="forminator-row"><div id="email-1" class="forminator-field-email forminator-col forminator-col-12 "><div class="forminator-field"><label for="forminator-field-email-1_6a83fbc0a57db" id="forminator-field-email-1_6a83fbc0a57db-label" class="forminator-label">Email Address <span class="forminator-required">*</span></label><input type="email" name="email-1" value="" placeholder="" id="forminator-field-email-1_6a83fbc0a57db" class="forminator-input forminator-email--field" data-required="true" aria-required="true" autocomplete="email"></div></div></div><div class="forminator-row"><div id="phone-1" class="forminator-field-phone forminator-col forminator-col-12 "><div class="forminator-field"><label for="forminator-field-phone-1_6a83fbc0a57db" id="forminator-field-phone-1_6a83fbc0a57db-label" class="forminator-label">Phone Number</label><input type="text" name="phone-1" value="" placeholder="" id="forminator-field-phone-1_6a83fbc0a57db" class="forminator-input forminator-field--phone" data-required="" aria-required="false" autocomplete="off"></div></div></div><div class="forminator-row"><div id="textarea-1" class="forminator-field-textarea forminator-col forminator-col-12 "><div class="forminator-field"><label for="forminator-field-textarea-1_6a83fbc0a57db" id="forminator-field-textarea-1_6a83fbc0a57db-label" class="forminator-label">Message</label><span id="forminator-field-textarea-1_6a83fbc0a57db-description" class="forminator-description"><span data-limit="180" data-type="characters" data-editor="">0 / 180</span></span><textarea name="textarea-1" placeholder="" id="forminator-field-textarea-1_6a83fbc0a57db" class="forminator-textarea" style="--forminator-textarea-min-height:140px;" maxlength="180"></textarea></div></div></div><input type="hidden" name="referer_url" value=""><div class="forminator-row forminator-row-last"><div class="forminator-col"><div class="forminator-field"><button class="forminator-button forminator-button-submit">Submit</button></div></div></div><input type="hidden" id="forminator_nonce" name="forminator_nonce" value="fd2a04b7b8"><input type="hidden" name="_wp_http_referer" value="/awakened/inquiry/"><input type="hidden" name="form_id" value="76"><input type="hidden" name="page_id" value="49"><input type="hidden" name="form_type" value="default"><input type="hidden" name="current_url" value="https://rkferrolino.github.io/awakened/inquiry/"><input type="hidden" name="render_id" value="0"><input type="hidden" name="action" value="forminator_submit_form_custom-forms"></form>
 	</div><!-- .entry-content -->
 </article><!-- #post-49 -->
 
@@ -632,6 +682,13 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 				}
 			});
 		</script>
-		
+		<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+  var content = document.getElementById('content');
+  if (content) {
+    content.style.paddingTop = '0px';
+  }
+});
+</script>
 </body>
 </html>

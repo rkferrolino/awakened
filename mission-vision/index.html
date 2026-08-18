@@ -362,24 +362,22 @@ body {
 			
 			
 					</style>
-		<style id="custom-background-css">
-body.custom-background { background-image: url("https://rkferrolino.github.io/awakened/wp-content/uploads/2026/08/bg.png"); background-position: center bottom; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
-</style>
-<style id="wp-custom-css">
-.site-header .navbar{
-	background:none;
+		<style id="wp-custom-css">
+.top-img {
+width: 100vw;
+  min-height: 117vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: url('https://rkferrolino.github.io/awakened/wp-content/uploads/2026/08/bg.png') top / cover no-repeat;
+	margin-top: -35px;
 }
 .navbar-toggle{
 	display:none !important;
 }
-.home .site-footer{
-	position: fixed;
-  width: 100%;
-  bottom: -1px;
-	background: no-repeat;
-  border-top: unset !important;
-	color: #fff;
-}
+
 .top h1{
 	font-size: 6rem !important;
   text-align: center;
@@ -402,17 +400,69 @@ body.custom-background { background-image: url("https://rkferrolino.github.io/aw
   margin: 0 auto;
 }
 h1.entry-title{
-	color:#fbe8be !important;
+	color:#000 !important;
+	text-align:center !important;
 }
 .forminator-field label{
-	color:#ffc667 !important;
+	color:#000 !important;
 }
+/* Mission & Vision Cards */
+    .cards-grid {
+      display: grid;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid #382415;
+      border-top: 3px solid var(--gold-primary);
+      padding: 35px;
+      border-radius: 8px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--gold-primary);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .card-title {
+      font-family: var(--font-sans);
+      font-size: 1.3rem;
+      letter-spacing: 2px;
+      color: var(--gold-light);
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .card-number {
+      font-family: var(--font-sans);
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: var(--gold-border);
+    }
+
+    .card-body {
+      font-size: 1.05rem;
+      color: var(--text-main);
+      line-height: 1.8;
+    }
 
 </style>
 
 </head>
 
-<body class="wp-singular page-template-default page page-id-43 custom-background wp-custom-logo wp-embed-responsive wp-theme-inspiro inspiro--with-page-nav post-display-content-excerpt header-search-hidden colors-light">
+<body class="wp-singular page-template-default page page-id-43 wp-custom-logo wp-embed-responsive wp-theme-inspiro inspiro--with-page-nav post-display-content-excerpt colors-light">
 
 <aside id="side-nav" class="side-nav" tabindex="-1">
 	<div class="side-nav__scrollable-container">
@@ -446,7 +496,7 @@ h1.entry-title{
 	<div class="header-inner inner-wrap  ">
 
 					<div class="header-logo-wrapper">
-				<a href="https://rkferrolino.github.io/awakened/" class="custom-logo-link" rel="home"><img width="825" height="885" src="https://rkferrolino.github.io/awakened/wp-content/uploads/2026/08/logo.png" class="custom-logo" alt="Awakened in Christ" decoding="async" fetchpriority="high" sizes="100vw"></a>			</div>
+				<a href="https://rkferrolino.github.io/awakened/" class="custom-logo-link" rel="home"><img width="894" height="861" src="https://rkferrolino.github.io/awakened/wp-content/uploads/2026/08/logo.png" class="custom-logo" alt="Awakened in Christ" decoding="async" fetchpriority="high" sizes="100vw"></a>			</div>
 
 			<div class="header-navigation-wrapper">
 								<nav class="primary-menu-wrapper navbar-collapse collapse" aria-label="Top Horizontal Menu" role="navigation">
@@ -511,7 +561,40 @@ h1.entry-title{
 
 	
 	<div class="entry-content">
-			</div><!-- .entry-content -->
+		<div class="cards-grid">
+<section class="card">
+<div class="card-header">
+<h2 class="card-title">Our Mission</h2>
+<p>          <span class="card-number">01</span>
+        </p></div>
+<div class="card-body">
+         Awakened in Christ exists to sound a clear and uncompromising call to the Church: “Awake, O sleeper, and arise from the dead, and Christ will shine on you.” — Ephesians 5:14
+<p>Our mission is to awaken believers from spiritual complacency, compromise, lukewarm Christianity, and religious routine, calling them back to wholehearted surrender to Jesus Christ. Through biblical teaching, testimony, exhortation, and the message of the Awakened in Christ series, we seek to confront darkness with truth, expose the danger of spiritual sleep, and call the people of God into genuine repentance, holiness, obedience, and intimacy with Christ.</p>
+<p>This ministry exists to proclaim a Gospel that does not accommodate the world, soften the demands of discipleship, or make peace with sin. We are calling believers to die to self, take up their cross, follow Jesus without reservation, and live as men and women who have truly been made alive in Him.</p>
+<p>Our desire is to see a generation awakened by the truth of God’s Word, set ablaze with love for Jesus, filled with the Holy Spirit, uncompromising in holiness, courageous in obedience, and prepared to stand faithfully in an increasingly dark world.</p>
+<p>The hour is late. The Church cannot afford to remain asleep. It is time to arise, walk in the light, and become fully awakened in Christ.
+        </p></div>
+</section>
+<section class="card">
+<div class="card-header">
+<h2 class="card-title">Our Vision</h2>
+<p>          <span class="card-number">02</span>
+        </p></div>
+<div class="card-body">
+          The vision of Awakened in Christ is to see the Church awakened from spiritual slumber and restored to a life of wholehearted devotion to Jesus Christ.
+<p>We envision believers who are no longer satisfied with comfortable Christianity, empty religion, cultural compromise, or a faith that exists only in words. We long to see men and women transformed by the truth of God’s Word, walking in repentance, holiness, obedience, spiritual maturity, and an unshakable love for Christ.</p>
+<p>Our vision is for a generation of believers to rise from complacency and become fully alive in Christ—men and women who know who they are in Him, recognize the urgency of the hour, discern the darkness around them, and refuse to bow to the spirit of this age.</p>
+<p>We envision homes restored, families strengthened, prodigals returning, chains broken, lives transformed, and believers becoming bold witnesses of Jesus Christ wherever God has placed them.</p>
+<p>We desire to see the Body of Christ purified, strengthened, and prepared—a Church that does not merely profess the name of Jesus, but reflects His character, obeys His Word, carries His light, and stands faithfully until the end.</p>
+<p>Rooted in the call of Ephesians 5:14, our vision is to see sleeping hearts awakened, dead places brought to life, and the light of Christ shining through His people with unmistakable power.</p>
+<p>A Church awake.<br>
+A people surrendered.<br>
+A generation set apart.<br>
+A light burning in the darkness.<br>
+Fully awakened in Christ.
+        </p></div>
+</section></div>
+	</div><!-- .entry-content -->
 </article><!-- #post-43 -->
 
 		</main><!-- #main -->
@@ -567,6 +650,13 @@ h1.entry-title{
 var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
 //# sourceURL=https://rkferrolino.github.io/awakened/wp-includes/js/wp-emoji-loader.min.js
 </script>
-
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+  var content = document.getElementById('content');
+  if (content) {
+    content.style.paddingTop = '0px';
+  }
+});
+</script>
 </body>
 </html>
